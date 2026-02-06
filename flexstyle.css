@@ -1,0 +1,34 @@
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    flex: 1 1 250px; /* Карточка занимает минимум 250px и растягивается при наличии места */
+    margin: 15px;
+    padding: 20px;
+    background-color: lightgray;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+}
+
+.product-card button {
+    padding: 10px 20px;
+    background-color: #f8c102;
+    border: none;
+    cursor: pointer;
+}
